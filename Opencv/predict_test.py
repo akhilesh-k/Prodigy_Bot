@@ -1,5 +1,3 @@
-__author__ = 'zhengwang'
-
 import cv2
 import numpy as np
 import glob
