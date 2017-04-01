@@ -1,5 +1,3 @@
-__author__ = 'zhengwang'
-
 import numpy as np
 import cv2
 import serial
