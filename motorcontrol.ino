@@ -1,12 +1,11 @@
-// assign pin num
+/* Runs in Arduino */
 int right_pin = 6;
 int left_pin = 7;
 int forward_pin = 10;
 int reverse_pin = 9;
 
-// duration for output
+// Time Duration
 int time = 50;
-// initial command
 int command = 0;
 
 void setup() {
@@ -14,7 +13,7 @@ void setup() {
   pinMode(left_pin, OUTPUT);
   pinMode(forward_pin, OUTPUT);
   pinMode(reverse_pin, OUTPUT);
-  Serial.begin(115200);
+  Serial.begin(9600);
 }
 
 void loop() {
