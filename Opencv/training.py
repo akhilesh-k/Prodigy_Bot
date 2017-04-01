@@ -1,10 +1,8 @@
-__author__ = 'zhengwang'
-
 import cv2
 import numpy as np
 import glob
 
-print 'Loading training data...'
+print 'Initializing training data...'
 e0 = cv2.getTickCount()
 
 # load training data
